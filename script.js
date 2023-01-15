@@ -12,7 +12,7 @@ const sprite1Height = 350;
 let frameX1 = 0;
 let frameY1 = 0;
 let gameFrame1 = 0;
-const staggerFrame1 = 20;
+const staggerFrame1 = 10;
 
 function animate1() {
   ctx1.clearRect(0, 0, CANVAS1_WIDTH, CANVAS1_HEIGHT);
@@ -52,7 +52,7 @@ const sprite2Height = 350;
 let frameX2 = 0;
 let frameY2 = 1;
 let gameFrame2 = 0;
-const staggerFrame2 = 20;
+const staggerFrame2 = 10;
 
 function animate2() {
   ctx2.clearRect(0, 0, CANVAS2_WIDTH, CANVAS2_HEIGHT);
@@ -92,7 +92,7 @@ const sprite3Height = 350;
 let frameX3 = 0;
 let frameY3 = 2;
 let gameFrame3 = 0;
-const staggerFrame3 = 20;
+const staggerFrame3 = 10;
 
 function animate3() {
   ctx3.clearRect(0, 0, CANVAS3_WIDTH, CANVAS3_HEIGHT);
