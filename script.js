@@ -108,7 +108,7 @@ function animate3() {
     sprite3Height
   ); // ctx.drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh);
   if (gameFrame3 % staggerFrame3 == 0) {
-    if (frameX3 < 5) frameX3++;
+    if (frameX3 < 4) frameX3++;
     else frameX3 = 0;
   }
 
